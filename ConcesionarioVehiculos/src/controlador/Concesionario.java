@@ -22,7 +22,7 @@ public class Concesionario {
         if (comprove(v)) {
             vehiculos.add(v);
             FicheroVehiculos.guardar(vehiculos);
-            JOptionPane.showMessageDialog(null, "Guardado correctamente", "Aviso", 1);
+            JOptionPane.showMessageDialog(null, "Guardado Correctamente", "Aviso", 1);
         } else {
             JOptionPane.showMessageDialog(null, "La matricula ya esta registrada", "Error", 1);
         }
